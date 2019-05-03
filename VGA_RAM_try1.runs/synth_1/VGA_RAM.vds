@@ -1,0 +1,162 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Apr 25 12:22:11 2019
+# Process ID: 5892
+# Current directory: D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1
+# Command line: vivado.exe -log VGA_RAM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGA_RAM.tcl
+# Log file: D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/VGA_RAM.vds
+# Journal file: D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source VGA_RAM.tcl -notrace
+Command: synth_design -top VGA_RAM -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1356 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 396.922 ; gain = 102.980
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'VGA_RAM' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v:22]
+	Parameter buffer_width bound to: 256 - type: integer 
+	Parameter buffer_height bound to: 192 - type: integer 
+	Parameter line_sum bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/.Xil/Vivado-5892-DESKTOP/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (1#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/.Xil/Vivado-5892-DESKTOP/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'math_3D' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cos_32bit_SFIX' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/cos_32bit_SFIX.v:28]
+INFO: [Synth 8-6157] synthesizing module 'cordic_sin' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/.Xil/Vivado-5892-DESKTOP/realtime/cordic_sin_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cordic_sin' (2#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/.Xil/Vivado-5892-DESKTOP/realtime/cordic_sin_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'CCodeToOCode' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/CCodeToOCode.v:23]
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+	Parameter N bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'CCodeToOCode' (3#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/CCodeToOCode.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'cos_32bit_SFIX' (4#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/cos_32bit_SFIX.v:28]
+INFO: [Synth 8-6157] synthesizing module 'sin_32bit_SFIX' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/sin_32bit_SFIX.v:27]
+INFO: [Synth 8-6157] synthesizing module 'OCodeToCCode' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/CCodeToOCode.v:34]
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+	Parameter N bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OCodeToCCode' (5#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/CCodeToOCode.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'sin_32bit_SFIX' (6#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/sin_32bit_SFIX.v:27]
+INFO: [Synth 8-6157] synthesizing module 'mul_32bit_SFIX' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/mul_32bit_SFIX.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'mul_32bit_SFIX' (7#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/mul_32bit_SFIX.v:24]
+INFO: [Synth 8-6157] synthesizing module 'matrix_mul' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/matrix_mul.v:29]
+INFO: [Synth 8-6157] synthesizing module 'vector_dotproduct' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/vector_dotproduct.v:25]
+INFO: [Synth 8-6157] synthesizing module 'add_32bit_SFIX' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/add_32bit_SFIX.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'add_32bit_SFIX' (8#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/add_32bit_SFIX.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'vector_dotproduct' (9#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/vector_dotproduct.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'matrix_mul' (10#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/matrix_mul.v:29]
+INFO: [Synth 8-6157] synthesizing module 'matrix_apply' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/matrix_apply.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'matrix_apply' (11#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/matrix_apply.v:29]
+INFO: [Synth 8-6157] synthesizing module 'div_32bit_SFIX' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/div_32bit_SFIX.v:68]
+INFO: [Synth 8-6157] synthesizing module 'fix_to_float_32bit' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/fix_to_float_32bit.v:76]
+INFO: [Synth 8-6157] synthesizing module 'floating_point_0' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/.Xil/Vivado-5892-DESKTOP/realtime/floating_point_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'floating_point_0' (12#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/.Xil/Vivado-5892-DESKTOP/realtime/floating_point_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fix_to_float_32bit' (13#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/fix_to_float_32bit.v:76]
+INFO: [Synth 8-6157] synthesizing module 'floating_point_div' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/.Xil/Vivado-5892-DESKTOP/realtime/floating_point_div_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'floating_point_div' (14#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/.Xil/Vivado-5892-DESKTOP/realtime/floating_point_div_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'float_to_fix_32bit' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/fix_to_float_32bit.v:100]
+INFO: [Synth 8-6157] synthesizing module 'PWM' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/fix_to_float_32bit.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'PWM' (15#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/fix_to_float_32bit.v:45]
+INFO: [Synth 8-6157] synthesizing module 'floating_point_1' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/.Xil/Vivado-5892-DESKTOP/realtime/floating_point_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'floating_point_1' (16#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.runs/synth_1/.Xil/Vivado-5892-DESKTOP/realtime/floating_point_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'float_to_fix_32bit' (17#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/fix_to_float_32bit.v:100]
+INFO: [Synth 8-6155] done synthesizing module 'div_32bit_SFIX' (18#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/div_32bit_SFIX.v:68]
+INFO: [Synth 8-6157] synthesizing module 'sub_32bit_SFIX' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/sub_32bit_SFIX.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'sub_32bit_SFIX' (19#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/sub_32bit_SFIX.v:24]
+WARNING: [Synth 8-567] referenced signal 'valid_out' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'tx2_1' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'tx2_2' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'tx2_3' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'tx2_4' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'tx2_5' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'tx2_6' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'tx2_7' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'tx2_8' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'ty2_1' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'ty2_2' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'ty2_3' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'ty2_4' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'ty2_5' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'ty2_6' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'ty2_7' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-567] referenced signal 'ty2_8' should be on the sensitivity list [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:360]
+WARNING: [Synth 8-6014] Unused sequential element eye_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:107]
+WARNING: [Synth 8-6014] Unused sequential element at_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:108]
+WARNING: [Synth 8-6014] Unused sequential element up_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:109]
+WARNING: [Synth 8-6014] Unused sequential element xaxis_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:110]
+WARNING: [Synth 8-6014] Unused sequential element yaxis_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:111]
+WARNING: [Synth 8-6014] Unused sequential element zaxis_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'math_3D' (20#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/math_3D.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v:227]
+INFO: [Synth 8-6157] synthesizing module 'vga1024x768' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/vga1024x768.v:23]
+	Parameter HS_STA bound to: 24 - type: integer 
+	Parameter HS_END bound to: 160 - type: integer 
+	Parameter HA_STA bound to: 304 - type: integer 
+	Parameter VS_STA bound to: 771 - type: integer 
+	Parameter VS_END bound to: 777 - type: integer 
+	Parameter VA_END bound to: 768 - type: integer 
+	Parameter LINE bound to: 1328 - type: integer 
+	Parameter SCREEN bound to: 806 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vga1024x768' (21#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/vga1024x768.v:23]
+WARNING: [Synth 8-689] width (11) of port connection 'o_x' does not match port width (10) of module 'vga1024x768' [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v:351]
+WARNING: [Synth 8-350] instance 'display' of module 'vga1024x768' requires 11 connections, but only 7 given [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v:351]
+WARNING: [Synth 8-6014] Unused sequential element lineX0_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v:173]
+WARNING: [Synth 8-6014] Unused sequential element lineY0_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v:174]
+WARNING: [Synth 8-6014] Unused sequential element lineX1_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v:175]
+WARNING: [Synth 8-6014] Unused sequential element lineY1_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v:176]
+WARNING: [Synth 8-6014] Unused sequential element e2_reg was removed.  [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v:204]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_RAM' (22#1) [D:/codehub/VIVADO/VGA_RAM_try2/VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v:22]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[30]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[29]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[28]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[27]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[26]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[25]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[24]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[23]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[22]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[21]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[20]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[19]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[18]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[2]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[1]
+WARNING: [Synth 8-3331] design sin_32bit_SFIX has unconnected port x[0]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[30]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[29]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[28]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[27]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[26]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[25]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[24]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[23]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[22]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[21]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[20]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[19]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[18]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[2]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[1]
+WARNING: [Synth 8-3331] design cos_32bit_SFIX has unconnected port x[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 456.059 ; gain = 162.117
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 456.059 ; gain = 162.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 456.059 ; gain = 162.117
+---------------------------------------------------------------------------------

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1556166128">
+  <File Type="ROUTE-PWR" Name="VGA_RAM_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="VGA_RAM.tcl"/>
+  <File Type="BITSTR-BMM" Name="VGA_RAM_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="VGA_RAM_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="VGA_RAM_reports.tcl"/>
+  <File Type="OPT-DCP" Name="VGA_RAM_opt.dcp"/>
+  <File Type="OPT-DRC" Name="VGA_RAM_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="VGA_RAM.hwdef"/>
+  <File Type="PWROPT-DCP" Name="VGA_RAM_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="VGA_RAM_placed.dcp"/>
+  <File Type="PLACE-IO" Name="VGA_RAM_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="VGA_RAM_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="VGA_RAM_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="VGA_RAM_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="VGA_RAM_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="VGA_RAM.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="VGA_RAM_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="VGA_RAM.bin"/>
+  <File Type="PHYSOPT-DCP" Name="VGA_RAM_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="VGA_RAM.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="VGA_RAM_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="VGA_RAM_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="VGA_RAM_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="VGA_RAM_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="VGA_RAM_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="VGA_RAM_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="VGA_RAM.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="VGA_RAM_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="VGA_RAM.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="VGA_RAM_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="VGA_RAM_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="VGA_RAM.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="VGA_RAM_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="VGA_RAM_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="VGA_RAM_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="VGA_RAM_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="VGA_RAM_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="VGA_RAM_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="VGA_RAM_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="VGA_RAM_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="VGA_RAM_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="VGA_RAM_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="VGA_RAM_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="VGA_RAM_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="VGA_RAM.bit"/>
+  <File Type="BITSTR-RBT" Name="VGA_RAM.rbt"/>
+  <File Type="BITSTR-NKY" Name="VGA_RAM.nky"/>
+  <File Type="BG-DRC" Name="VGA_RAM.drc"/>
+  <File Type="RDI-RDI" Name="VGA_RAM.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/floating_point_div/floating_point_div.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CCodeToOCode.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/add_32bit_SFIX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cos_32bit_SFIX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/div_32bit_SFIX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fix_to_float_32bit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/math_3D.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/matrix_apply.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/matrix_mul.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mul_32bit_SFIX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sin_32bit_SFIX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sub_32bit_SFIX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vector_dotproduct.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga1024x768.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA_RAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="VGA_RAM"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Nexys4 ddr.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="cordic_sin"/>
+  <BlockFileSet Type="BlockSrcs" Name="floating_point_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="floating_point_0"/>
+</GenRun>

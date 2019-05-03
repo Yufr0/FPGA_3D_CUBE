@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB3_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB3" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="190537085fs"></ZoomEndTime>
+      <Cursor1Time time="483376000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="443"></NameColumnWidth>
+      <ValueColumnWidth column_width="226"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/TB3/Math_3D/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB3/Math_3D/angle" type="array">
+      <obj_property name="ElementShortName">angle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">angle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB3/Math_3D/pos_camera_dx" type="array">
+      <obj_property name="ElementShortName">pos_camera_dx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pos_camera_dx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB3/Math_3D/valid_in_angle" type="logic">
+      <obj_property name="ElementShortName">valid_in_angle</obj_property>
+      <obj_property name="ObjectShortName">valid_in_angle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB3/Math_3D/point_t1" type="array">
+      <obj_property name="ElementShortName">point_t1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">point_t1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB3/Math_3D/point0x" type="array">
+      <obj_property name="ElementShortName">point0x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">point0x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB3/Math_3D/point0y" type="array">
+      <obj_property name="ElementShortName">point0y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">point0y[15:0]</obj_property>
+   </wvobject>
+</wave_config>

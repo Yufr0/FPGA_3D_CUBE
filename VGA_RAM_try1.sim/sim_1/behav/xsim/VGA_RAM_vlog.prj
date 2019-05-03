@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../VGA_RAM_try1.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/CCodeToOCode.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/add_32bit_SFIX.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/cos_32bit_SFIX.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/div_32bit_SFIX.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/fix_to_float_32bit.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/math_3D.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/matrix_apply.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/matrix_mul.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/mul_32bit_SFIX.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/sin_32bit_SFIX.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/sub_32bit_SFIX.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/vector_dotproduct.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/vga1024x768.v" \
+"../../../../VGA_RAM_try1.srcs/sources_1/new/VGA_RAM.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
